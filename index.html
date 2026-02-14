@@ -13,7 +13,7 @@
         <div class="header">
             <div id="menuButton">
                 <input type="checkbox" id="sidebarToggle" />
-                <label for="sidebarToggle" id="menuOpen" onclick="toggleOpen()">
+                <label for="sidebarToggle" id="menuOpen">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         height="36px"
@@ -26,12 +26,11 @@
                         />
                     </svg>
                 </label>
-                <label for="sidebarToggle" class="overlay-label" onclick="toggleOpen()">
-                    <div class="overlay"></div>
+                <label for="sidebarToggle" class="overlay-label">
                 </label>
                 <div class="sideBar">
                     <div class="menuClose">
-                        <label for="sidebarToggle" id="menuClose" onclick="toggleClose()">
+                        <label for="sidebarToggle" id="menuClose">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 height="36px"
@@ -63,15 +62,23 @@
                 </div>
             </div>
             <div class="nav-links">
-                <div class="navs">
-                    <a href="#">Home</a>
-                    <a href="#">Menus</a>
-                    <a href="#">Gallery</a>
-                    <a href="#">Contact</a>
-                </div>
+                <a href="#">Home</a>
+                <a href="#">Menus</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
             </div>
         </div>
-        <div class="main"> <h1>MAIN DIV</h1> </div>
+        <div class="main"> 
+            <div class="topMain">
+                <h2>Top</h2>
+            </div>
+            <div class="midMain">
+                <h2>Middle</h2>
+            </div>
+            <div class="botMain">
+                <h2>Bottom</h2>
+            </div>
+        </div>
         <div class="footer"> <h3>FOOTER</h3> </div>
     </div>
     <script src="script.js"></script>
