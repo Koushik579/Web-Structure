@@ -156,7 +156,7 @@ a:hover{
 
 
 /*====================Mobile View=====================*/
-@media(max-width:650px){
+@media(max-width:880px){
     .header { 
         justify-content: flex-start;
     }
